@@ -2,10 +2,16 @@
 
 Here is a barebones example to start using webpack with es6.
 
-# Global Dependencies
+clone the repo...
+
+git clone git@github.com:lvjuniordevs/webpack-skeleton.git
+
+npm install
+
+# Make sure you have these global dependencies
 
 Run these in the terminal.
 
-```npm install -g webpack```
+```sudo npm install -g webpack```
 
-```npm install -g webpack-dev-server```
+```sudo npm install -g webpack-dev-server```
