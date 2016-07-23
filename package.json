@@ -1,11 +1,14 @@
 {
   "name": "webpack-skeleton",
   "version": "1.0.0",
+  "engines": {
+    "node": "5.11.0"
+  },
   "description": "",
   "main": "app.js",
   "scripts": {
     "dev": "webpack --watch --progress",
-    "postinstall":"webpack --watch --progress",
+    "postinstall":"webpack -p",
     "start":"node server.js"
   },
   "repository": {
