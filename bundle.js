@@ -29001,14 +29001,19 @@
 		return _react2.default.createElement(
 			'h1',
 			null,
-			'Hello from dogs!'
+			'I\'m at the home page go to ',
+			_react2.default.createElement(
+				_reactRouter.Link,
+				{ to: "/address" },
+				'address page'
+			)
 		);
 	};
 	var Address = function Address() {
 		return _react2.default.createElement(
 			'h1',
 			null,
-			'We are located at 555 Jackson St.'
+			'I\'m on the address page'
 		);
 	};
 
@@ -29076,6 +29081,11 @@
 				return _react2.default.createElement(
 					'div',
 					null,
+					_react2.default.createElement(
+						'p',
+						null,
+						'here is the test page'
+					),
 					_react2.default.createElement(
 						'button',
 						{ onClick: function onClick() {

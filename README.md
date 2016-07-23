@@ -22,3 +22,9 @@ webpack
 https://webpack.github.io/docs/troubleshooting.html
 
 webpack --watch --progress works but dev server does not, conflict with 8080???
+
+
+deploying to heroku (package.json)
+
+
+https://www.youtube.com/watch?v=Ru3Rj_hM8bo

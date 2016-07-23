@@ -2,8 +2,8 @@ import React from 'react';
 import { Router, Route, Link, IndexRoute, browserHistory } from 'react-router';
 import Test from './test.js';
 
-const Home = () => <h1>Hello from dogs!</h1>
-const Address = () => <h1>We are located at 555 Jackson St.</h1>
+const Home = () => <h1>I'm at the home page go to <Link to={"/address"}>address page</Link></h1>
+const Address = () => <h1>I'm on the address page</h1>
 
 export const createRoutes = store => (
  <Route>
