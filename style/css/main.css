@@ -1,4 +1,4 @@
 body {
-  color: red; }
-
-/*# sourceMappingURL=main.css.map */
+  color: red;
+  background-color: blue;
+  background-size: 10px; }

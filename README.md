@@ -11,4 +11,6 @@ sass --watch sass:css
 
 //need bundle.js and index.html in public directory together can't just be a reference
 
+http://stackoverflow.com/questions/35928766/whats-the-correct-way-to-serve-production-react-bundle-js-built-by-webpack
+
 hash history uses state object on browser...
