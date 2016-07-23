@@ -29001,7 +29001,7 @@
 		return _react2.default.createElement(
 			'h1',
 			null,
-			'Hello from Home!'
+			'Hello from dogs!'
 		);
 	};
 	var Address = function Address() {
@@ -29081,7 +29081,7 @@
 						{ onClick: function onClick() {
 								return (0, _action.doThis)({ number: 7 });
 							} },
-						'click'
+						'it was clicked'
 					),
 					_react2.default.createElement(
 						'p',
@@ -29267,7 +29267,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  color: red;\n  background-color: blue;\n  background-size: 10px; }\n", ""]);
+	exports.push([module.id, "body {\n  color: green;\n  background-color: green;\n  background-size: 10px; }\n", ""]);
 
 	// exports
 

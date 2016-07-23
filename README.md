@@ -14,3 +14,11 @@ sass --watch sass:css
 http://stackoverflow.com/questions/35928766/whats-the-correct-way-to-serve-production-react-bundle-js-built-by-webpack
 
 hash history uses state object on browser...
+
+rest operator needs stage 2 preset not part of es6...
+
+
+webpack
+https://webpack.github.io/docs/troubleshooting.html
+
+webpack --watch --progress works but dev server does not, conflict with 8080???

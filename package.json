@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "webpack --watch --progress"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "babel-cli": "^6.10.1",
     "css-loader": "^0.23.1",
     "express": "^4.14.0",
+    "gulp-util": "^3.0.7",
     "nodemon": "^1.9.2",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",

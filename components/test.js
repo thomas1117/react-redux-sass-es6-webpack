@@ -15,7 +15,7 @@ class Test extends React.Component {
 		
 		return(
 			<div>
-			<button onClick={() => doThis({number:7})}>click</button>
+			<button onClick={() => doThis({number:7})}>it was clicked</button>
 			<p>{this.props.test}</p>
 			</div>
 			)
