@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "webpack --watch --progress"
+    "dev": "webpack --watch --progress",
+    "postinstall":"webpack -p",
+    "start":"node server.js"
   },
   "repository": {
     "type": "git",
