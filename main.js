@@ -1,3 +1,6 @@
-import {readPoem} from './function.js';
+require("!style!css!sass!./style/sass/main.scss");
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/app.js';
 
-console.log(readPoem())
+ReactDOM.render(<App/>,document.getElementById('app'));

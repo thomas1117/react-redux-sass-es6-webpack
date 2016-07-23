@@ -1,19 +1,7 @@
-# Webpack with Es6
+resources
 
-Here is a barebones example to start using webpack with es6.
+sass
+http://sassbreak.com/watch-your-sass/
 
-### Clone the repo...
-
-```git clone git@github.com:lvjuniordevs/webpack-skeleton.git```
-
-### Install the dependencies...
-
-```npm install```
-
-### Make sure you have these global dependencies
-
-Run these in the terminal.
-
-```sudo npm install -g webpack```
-
-```sudo npm install -g webpack-dev-server```
+in your style file run 
+sass --watch sass:css
