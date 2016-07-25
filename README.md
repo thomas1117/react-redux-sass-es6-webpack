@@ -28,3 +28,7 @@ deploying to heroku (package.json)
 
 
 https://www.youtube.com/watch?v=Ru3Rj_hM8bo
+
+
+
+deployed app https://react-deploy-web.herokuapp.com/
