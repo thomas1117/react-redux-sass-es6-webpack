@@ -1,10 +1,30 @@
-resources
+# Webpack with React Es6 node and sass starter using gulp
+
+### Clone the repo...
+
+```git clone git@github.com:lvjuniordevs/webpack-skeleton.git```
+
+### Install the dependencies...
+
+```npm install```
+
+### Make sure you have these global dependencies
+
+Run these in the terminal.
+
+```sudo npm install -g gulp```
+
+### To run local
+
+```npm run dev```
+
+### resources
 
 sass
-http://sassbreak.com/watch-your-sass/
+```http://sassbreak.com/watch-your-sass/```
 
 react router
-https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.i421ex2gf
+```https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.i421ex2gf```
 
 in your style file run 
 sass --watch sass:css
@@ -19,7 +39,7 @@ rest operator needs stage 2 preset not part of es6...
 
 
 webpack
-https://webpack.github.io/docs/troubleshooting.html
+```https://webpack.github.io/docs/troubleshooting.html```
 
 webpack --watch --progress works but dev server does not, conflict with 8080???
 
@@ -27,11 +47,11 @@ webpack --watch --progress works but dev server does not, conflict with 8080???
 deploying to heroku (package.json)
 
 
-https://www.youtube.com/watch?v=Ru3Rj_hM8bo
+```https://www.youtube.com/watch?v=Ru3Rj_hM8bo```
 
 
 
-deployed app https://react-deploy-web.herokuapp.com/
+deployed app ```https://react-deploy-web.herokuapp.com/```
 
 
-npm run dev to start...
+```npm run dev``` to start...

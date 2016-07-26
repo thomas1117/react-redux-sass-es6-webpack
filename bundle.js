@@ -29277,7 +29277,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  background-color: green;\n  color: red; }\n", ""]);
+	exports.push([module.id, "", ""]);
 
 	// exports
 
