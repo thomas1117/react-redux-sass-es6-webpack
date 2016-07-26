@@ -29084,14 +29084,14 @@
 					_react2.default.createElement(
 						'p',
 						null,
-						'here is the test page'
+						'hello test page!'
 					),
 					_react2.default.createElement(
 						'button',
 						{ onClick: function onClick() {
 								return (0, _action.doThis)({ number: 7 });
 							} },
-						'it was clicked'
+						'clicked'
 					),
 					_react2.default.createElement(
 						'p',
@@ -29109,7 +29109,7 @@
 
 
 	function mapStateToProps(state) {
-		console.log(state);
+
 		return { test: state.reduce.test };
 	}
 
@@ -29277,7 +29277,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  background-color: blue; }\n", ""]);
+	exports.push([module.id, "body {\n  background-color: green;\n  color: red; }\n", ""]);
 
 	// exports
 

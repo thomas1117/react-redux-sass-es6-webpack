@@ -7,7 +7,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "webpack --watch --progress",
+    "web":"webpack --progress --colors --watch",
+    "watch-server": "node server.js",
+    "watch-sass":"gulp watch",
+    "dev": "npm run web & npm run watch-server & npm run watch-sass",
     "postinstall": "webpack -p",
     "start": "node server.js"
   },
@@ -36,7 +39,8 @@
     "redux-thunk": "^2.1.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.14.1",
+    "webpack-stream": "^3.2.0"
   },
   "devDependencies": {
     "babel-loader": "^6.2.4",
